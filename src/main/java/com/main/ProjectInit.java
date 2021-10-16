@@ -44,7 +44,10 @@ public class ProjectInit {
         // SIZE -> SABER LA CANTIDAD DE ITEMS QUE TIENE MI LISTA
 
         //INDEX OF DEVUEL EL INDICE DEL OBJETO
-        System.out.println(palabras3.indexOf("CHAU"));
+        //System.out.println(palabras3.indexOf("CHAU"));
+
+        //CONTAINS SABER SI EXISTE EL OBJETO
+        //System.out.println(palabras3.contains("ZAMIR"));
         palabras3.forEach(System.out::println);
 
         System.out.println("TAMAÑO DE LISTA : "+palabras3.size());
